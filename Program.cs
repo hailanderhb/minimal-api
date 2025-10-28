@@ -194,7 +194,7 @@ app.MapPost("/administradores", ([FromBody] AdministradorDTO administradorDTO, I
     {
         Email = administradorDTO.Email,
         Senha = administradorDTO.Senha,
-        Perfil = administradorDTO.Perfil.ToString() ?? Perfil.editor.ToString()
+        Perfil = administradorDTO.Perfil.ToString() ?? Perfil.Editor.ToString()
     };
 
     administradorServico.Incluir(administrador);
