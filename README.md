@@ -1,5 +1,5 @@
 # 🔐 Minimal API — Autenticação & Autorização 
-#(Adm / Editor)
+(Adm / Editor)
 
 Projeto **Minimal API em .NET** em desenvolvimento, com foco na implementação de **autenticação JWT** e **autorização baseada em perfis (roles)** — como `Adm` e `Editor`.
 
